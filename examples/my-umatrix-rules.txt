@@ -1,0 +1,123 @@
+https-strict: behind-the-scene false
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: moz-extension-scheme true
+matrix-off: opera-scheme true
+matrix-off: vivaldi-scheme true
+matrix-off: wyciwyg-scheme true
+noscript-spoof: * true
+referrer-spoof: * true
+referrer-spoof: behind-the-scene false
+* * * block
+* * css allow
+* * image allow
+* 1st-party * allow
+* ajax.aspnetcdn.com * allow
+* ajax.googleapis.com * allow
+* ajax.microsoft.com * allow
+* ajax.proxy.ustclug.org * allow
+* apps.bdimg.com * allow
+* cdn.bootcss.com * allow
+* cdn.jsdelivr.net * allow
+* cdnjs.cloudflare.com * allow
+* code.jquery.com * allow
+* discourse-cdn.com script allow
+* discourse-cdn.com xhr allow
+* googlevideo.com media allow
+* lib.sinaapp.com * allow
+* libs.baidu.com * allow
+* mastodon.acc.sunet.se xhr allow
+* mathjax.org * allow
+* readthedocs.org script allow
+* sdn.geekzu.org * allow
+* translate.google.com script allow
+* translate.googleapis.com script allow
+* translate.googleapis.com xhr allow
+* upcdn.b0.upaiyun.com * allow
+* yandex.st * allow
+* yastatic.net * allow
+bbc.com bbc.co.uk * allow
+bbc.com bbci.co.uk * allow
+bbc.com bbcverticals.com script allow
+bbc.com mybbc-analytics.files.bbci.co.uk * block
+bbc.com vod-dash-ww-live.akamaized.net xhr allow
+bitbucket.io googlevideo.com media allow
+bitbucket.io netdna.bootstrapcdn.com script allow
+bitbucket.org atl-paas.net frame allow
+bitbucket.org atl-paas.net script allow
+bitbucket.org atl-paas.net xhr allow
+bitbucket.org atl-pass.net * allow
+bitbucket.org atlassian.com * allow
+bitbucket.org bbnbviewer.us-west-1.prod.public.atl-paas.net * allow
+bitbucket.org bitbucket-pipelines.prod.public.atl-paas.net * allow
+bitbucket.org bitbucket-trello-integration.prod.public.atl-paas.net frame allow
+bitbucket.org cloudfront.net * allow
+blog.jupyter.org cdn-static-1.medium.com script inherit
+blog.jupyter.org medium.com * allow
+bloomberg.com bwbx.io * allow
+box.com box.net xhr allow
+box.com boxcdn.net script allow
+box.com boxcloud.com frame allow
+box.com boxcloud.com xhr allow
+box.com dl.boxcloud.com * allow
+facebook.com fbcdn.net script allow
+githistory.xyz github.com xhr allow
+github.com * frame inherit
+github.com 1st-party frame inherit
+github.com actions.githubusercontent.com xhr allow
+github.com collector.githubapp.com * inherit
+github.com github-production-repository-file-5c1aeb.s3.amazonaws.com * allow
+github.com github-render.s3.amazonaws.com xhr allow
+github.com githubassets.com script allow
+github.com raw.githubusercontent.com * allow
+github.com render.githubusercontent.com * allow
+gitlab.com gitlab-static.net * allow
+gitlab.com swiftype.com xhr allow
+gitlab.com swiftypecdn.com script allow
+gitlab.com swiftypecdn.com xhr allow
+google.com googleusercontent.com frame allow
+google.com googleusercontent.com script allow
+google.com googleusercontent.com xhr allow
+google.com gstatic.com * allow
+google.com maps.googleapis.com script allow
+google.se google.com * allow
+google.se www.gstatic.com script allow
+heptapod.net google.com script allow
+heroku.com google.com * allow
+heroku.com gstatic.com script allow
+heroku.com herokucdn.com * allow
+heroku.com rollbar.com xhr allow
+ashwin.info.tm bibbase.org script allow
+mastodon.host * xhr allow
+matplotlib.org ajax.cloudflare.com script allow
+medium.com * frame allow
+medium.com cdn.embedly.com script allow
+overleaf.com pusher.com * allow
+overleaf.com pusherapp.com * allow
+peertube.social * xhr allow
+peertube.video * xhr allow
+phoronix.com openbenchmarking.org media allow
+phoronix.com openbenchmarking.org script allow
+protonmail.com protonmail.ch * allow
+pypi.org ravenjs.com script allow
+python.org discourse-cdn.com script allow
+python.org readthedocs.org script allow
+readthedocs.io cdn.plot.ly script allow
+readthedocs.io googlevideo.com * allow
+readthedocs.io maxcdn.bootstrapcdn.com script allow
+readthedocs.io readthedocs.org * allow
+readthedocs.io s.ytimg.com script allow
+readthedocs.io www.youtube-nocookie.com * allow
+slack.com slack-edge.com script allow
+slack.com slack-msgs.com xhr allow
+slack.com slackb.com xhr allow
+youtube-nocookie.com googlevideo.com * allow
+youtube-nocookie.com ytimg.com * allow
+youtube.com apis.google.com script allow
+youtube.com googleusercontent.com * allow
+youtube.com googlevideo.com media inherit
+youtube.com googlevideo.com xhr allow
+youtube.com www.google.com script allow
+youtube.com ytimg.com * allow
