@@ -1,6 +1,6 @@
 no-large-media: behind-the-scene false
 no-scripting: behind-the-scene false
-* * 3p-frame noop
+* * 3p-frame block
 * * 3p-script block
 * ajax.aspnetcdn.com * noop
 * ajax.googleapis.com * noop

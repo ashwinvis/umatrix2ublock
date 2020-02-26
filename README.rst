@@ -13,10 +13,11 @@ An effort is made to retain similar functionality and blocking as before.
 Usage
 -----
 
-1. Opt-in under uBlock-Origin_ settings: "I am an advanced_ user". Then *block*
-   3rd-party scripts and *noop* 3rd-party frames globally.
+1. Opt-in under uBlock-Origin_ settings: "I am an advanced_ user". Then block_
+   3rd-party scripts and frames globally. Alternatively block only 3rd-party
+   frames_ (less breakage).
 
-   .. image:: https://user-images.githubusercontent.com/9155111/75360210-c96e5f00-58b5-11ea-9e76-73012e3d30d5.png
+   .. image:: https://user-images.githubusercontent.com/9155111/75366608-44884300-58bf-11ea-88ff-8ca3252fd763.png
 
 2. Either enable "Custom" Firefox Enhanced Tracking protection to block all
    third-party cookies, or use Cookie-AutoDelete_.
@@ -51,6 +52,8 @@ several months to serve the same purpose.
 
 
 .. _advanced: https://github.com/gorhill/uBlock-Origin/wiki/Advanced-user-features
+.. _block: https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-script-and-iframe-tags
+.. _frames: https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags
 .. _uMatrix: https://github.com/gorhill/uMatrix
 .. _uBlock-Origin: https://github.com/gorhill/uBlock
 .. _Cookie-AutoDelete: https://github.com/Cookie-AutoDelete/Cookie-AutoDelete
