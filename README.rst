@@ -35,7 +35,8 @@ Usage
 Background
 ----------
 
-In my browser, I originally had uBlock-Origin_ Origin (default settings) and uMatrix_.
+In my browser, I originally had uBlock-Origin_ (with its default settings) and
+uMatrix_.
 
 I started using uMatrix_ to block all third-party requests by default (except
 css and images), and whitelisting a few requests to make the website is
