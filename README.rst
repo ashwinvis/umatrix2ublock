@@ -51,7 +51,7 @@ above. I simply needed to migrate my uMatrix_ rules that I had aggregated over
 several months to serve the same purpose.
 
 
-.. _advanced: https://github.com/gorhill/uBlock-Origin/wiki/Advanced-user-features
+.. _advanced: https://github.com/gorhill/uBlock/wiki/Advanced-user-features
 .. _block: https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-script-and-iframe-tags
 .. _frames: https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags
 .. _uMatrix: https://github.com/gorhill/uMatrix
