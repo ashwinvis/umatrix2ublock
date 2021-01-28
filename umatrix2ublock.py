@@ -25,7 +25,7 @@ translate_request = {
 translate_action = {"allow": "noop", "inherit": "noop", "block": "block"}
 
 # Requests which cannot be translated
-skip_requests = ("cookie", "css", "plugin", "media")
+skip_requests = ("cookie", "css", "plugin", "media", "other")
 
 skip_rules = (
     "* * * block",
