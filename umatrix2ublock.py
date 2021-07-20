@@ -62,7 +62,7 @@ for rule in rules:
 
         ub_action = translate_action[action]
 
-        ub_rule = f"{src} {dest} {ub_request} {ub_action}"
+        ub_rule = "{src} {dest} {ub_request} {ub_action}"
         print("Adding:".rjust(15), ub_rule)
         ub_rules.append(ub_rule + "\n")
     else:
